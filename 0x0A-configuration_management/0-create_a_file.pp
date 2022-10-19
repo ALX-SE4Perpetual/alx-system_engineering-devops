@@ -1,4 +1,5 @@
 # Create a new text file with requirements
+
 file { '/tmp/school':
     ensure => file,
     path => '/tmp/school',
