@@ -1,1 +1,1 @@
-Everything on shell basics
+Shell basics
