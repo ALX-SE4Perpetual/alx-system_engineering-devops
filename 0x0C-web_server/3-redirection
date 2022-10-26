@@ -20,6 +20,6 @@ redirection=\
 	}
 }"
 
-echo -e "$redirection" > /etc/nginx/sites-available/default
+bash -c "echo -e '$redirection' > /etc/nginx/sites-available/default"
 
 sudo service nginx restart
