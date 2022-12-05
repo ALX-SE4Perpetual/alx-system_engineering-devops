@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Transfer a file from our client to a server
+# Transfer a file from Holberton client to a server
 
 if [ $# -lt 4 ] 
 then
